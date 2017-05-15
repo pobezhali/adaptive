@@ -387,6 +387,8 @@ template {
 *:before,
 *:after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
   font-size: 10px;
@@ -450,6 +452,9 @@ body {
   justify-content: space-between;
   -ms-flex-align: center;
   align-items: center;
+}
+.header__logo {
+  margin-bottom: 20px;
 }
 .logo {
   position: relative;
